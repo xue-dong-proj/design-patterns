@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/class-diagram
+abstract Phone
+Phone o-- Brand
+FolderPhone <|-- Phone
+UpRightPhone <|-- Phone
+
+interface Brand
+class Vivo extends Brand
+class xiaomi extends Brand
+
+
+@enduml
